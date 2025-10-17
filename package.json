@@ -1,16 +1,14 @@
 {
   "name": "consulta-documento-api",
   "version": "1.0.0",
-  "description": "Microservicio para consultar fecha de nacimiento y tipo de documento por número de documento",
+  "description": "API para consultar documentos en la tabla cortes",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
+    "express": "^4.19.2",
     "cors": "^2.8.5"
   }
 }
